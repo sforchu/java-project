@@ -10,6 +10,7 @@ public class ExcerStack {
         stack.push(50);
         stack.push(60);
 
+        
         System.out.println(stack.pop());
         System.out.println(stack.peek());
         stack.removeElement(Integer.valueOf(50));
