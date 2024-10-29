@@ -1,20 +1,28 @@
-import java.util.TreeMap;
+import com.sun.source.tree.Tree;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.TreeSet;
 
 public class ExerTree {
     public static void main(String[] args) {
-        TreeMap<String, Integer> age = new TreeMap<>();
-        age.put("Lum", 31);
-        age.put("Ojong", 45);
-        age.put("Nana", 20);
-        age.put("Bih", 28);
+        int[] ages = {8, 2, 4, 3, 9, 2};
 
-        System.out.println(age);
+        TreeSet<Integer> ageTree = new TreeSet<>();
 
-        age.remove("Lum");
-        System.out.println(age.get("Nana"));
+//        Enhanced for loop
+        for (int age : ages) {
+            ageTree.add(age);
+        }
 
-        age.replace("Bih", 30);
+//        Regular loop
+//        for (int i = 0; i < ages.length; i++) {
+//            ageTree.add(ages[i]);
+//        }
 
-        System.out.println(age);
+        System.out.println(Arrays.toString(ages));
+        System.out.println(ageTree);
+
+
     }
 }
