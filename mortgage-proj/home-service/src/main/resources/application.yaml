@@ -1,0 +1,17 @@
+spring:
+  application:
+  name: home-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/mort_home_db
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: YourPassWord
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+app:
+  service:
+    account-service: http://localhost:8081/accounts

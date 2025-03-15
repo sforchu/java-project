@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e67a499-8cc1-4701-ab15-bf24a7bf79f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../data_structure/src/ExerTimeComplex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database-connect/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database-connect/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database-connect/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database-connect/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../database-connect/src/main/java/com/safcompany/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../devpro-atm-bank/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../devpro-atm-bank/src/main/java/data/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../devpro-atm-bank/src/main/java/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../devpro-atm-bank/src/main/java/model/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../devpro-atm-bank/src/main/java/repository/AccountRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ow3tzOEoaJucx0ZIaj2uwS8cy8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Smith/IdeaProjects/data_structure",
+    "onboarding.tips.debug.path": "C:/Users/Smith/IdeaProjects/devprocompany/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="devprocompany" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="devprocompany" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e67a499-8cc1-4701-ab15-bf24a7bf79f2" name="Changes" comment="" />
+      <created>1731767033513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731767033513</updated>
+    </task>
+    <servers />
+  </component>
+</project>

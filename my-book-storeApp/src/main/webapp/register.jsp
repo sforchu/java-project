@@ -1,5 +1,6 @@
 <html>
     <body>
+        <a href="/my-book-storeApp/login">Back</a>
         <fieldset style="margin-left: 30px; width: 15%">
          <legend>Create User account</legend>
          <div style="color:red"> <%=request.getAttribute("errorMsg")!=null? request.getAttribute("errorMsg"): ""%> </div>

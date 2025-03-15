@@ -1,4 +1,4 @@
-package com.safaew.home_service.config;
+package com.safaew.payment_service.config;
 
 
 import org.springframework.context.annotation.Bean;
