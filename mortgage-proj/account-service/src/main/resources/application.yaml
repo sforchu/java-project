@@ -1,0 +1,15 @@
+spring:
+  application:
+  name: account-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/mort_account_db
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: AWSjob123#
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8081
