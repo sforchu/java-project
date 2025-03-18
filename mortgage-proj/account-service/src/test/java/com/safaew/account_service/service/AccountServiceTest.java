@@ -1,11 +1,10 @@
-package com.safaew.account_service.serviceTest;
+package com.safaew.account_service.service;
 
 
 import com.safaew.account_service.dto.AccountRequest;
 import com.safaew.account_service.dto.AccountResponse;
 import com.safaew.account_service.entity.AccountEntity;
 import com.safaew.account_service.repository.AccountRepository;
-import com.safaew.account_service.service.AccountService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.*;

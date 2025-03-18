@@ -1,0 +1,1 @@
+INSERT INTO accounts (id, name, email_address) VALUES (1001, 'Jules', 'jules@example.com');

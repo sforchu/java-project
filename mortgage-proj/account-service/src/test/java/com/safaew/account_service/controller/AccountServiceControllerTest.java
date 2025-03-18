@@ -1,7 +1,6 @@
-package com.safaew.account_service.controllerTest;
+package com.safaew.account_service.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.safaew.account_service.controller.AccountController;
 import com.safaew.account_service.dto.AccountRequest;
 import com.safaew.account_service.dto.AccountResponse;
 import com.safaew.account_service.service.AccountService;
@@ -11,21 +10,17 @@ import org.skyscreamer.jsonassert.JSONAssert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 //import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.data.annotation.Id;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
-import org.springframework.test.web.servlet.assertj.MockMvcTester;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.apache.coyote.http11.Constants.a;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;

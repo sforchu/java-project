@@ -5,7 +5,7 @@ spring:
     url: jdbc:mysql://localhost:3306/mort_account_db
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: YourPassWord
+    password: YourPassword
   jpa:
     hibernate:
       ddl-auto: update

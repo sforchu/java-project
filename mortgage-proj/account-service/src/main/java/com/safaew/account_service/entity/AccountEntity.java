@@ -19,7 +19,7 @@ public class AccountEntity {
     @Column(name = "name", nullable = false)
     private String name;
 
-    @Column(name = "email address", nullable = false)
+    @Column(name = "email_address", nullable = false)
     private String emailAddress;
 
 
